@@ -1,0 +1,205 @@
+
+body{
+  font-family: "Montserrat";
+}
+
+section{
+  position: relative;
+}
+
+#title{
+  background-color: white;
+
+}
+
+.container-fluid{
+  padding: 0% 7%;
+}
+
+
+.title-phone-img{
+
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+
+#features{
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+h1{
+  font-family: "Montserrat";
+  font-weight: 1000;
+ font-size: 3.5rem;
+line-height: 1.5;
+color: black;
+
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: 1000px;
+  font-size: 3rem;
+
+}
+
+
+/* features */
+
+
+
+
+/* navbar */
+
+.navbar{
+  padding-bottom: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+/* navbar brand */
+.navbar-brand {
+font-family: "ubuntu";
+font-weight: 800;
+font-size: 3rem;
+}
+
+.nav-link{
+font-size: 1.2rem;
+font-family: "Montserrat";
+}
+
+.download-btn{
+  margin: 5% 3% 5% 0%
+}
+
+/* phone image */
+
+
+
+.ic-check-circle{
+  width: 200px;
+}
+
+
+.Montserrat-bold{
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding: 5%;
+}
+
+
+.icon-align{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.icons{
+  color: #ff4d88;
+}
+
+.icons:hover {
+  color: pink;
+}
+
+#testimonials{
+  background-color: #ff4d88;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.carousel-item{
+  padding: 1% 15% 0%;
+}
+
+
+.testimonial-text2{
+  font-family: "Patrick Hand";
+  font-size: 40px;
+}
+
+
+.testimonial-image{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+#press{
+  background-color: white;
+  text-align: center;
+  padding: 2%;
+}
+
+.img-press{
+  width: 15%;
+  margin: 15px 20px 50px;
+}
+
+
+#pricing{
+  margin: 100px;
+  text-align: center;
+
+
+}
+
+
+.pricing-col {
+  padding: 4% 2%;
+}
+
+
+@media (max-width:992px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-phone-img{
+    position: static;
+  transform: rotate(0deg);
+
+  }
+
+}
+
+#cta{
+  text-align: center;
+  background-color: #ff4d88;
+  padding: 5% 15%;
+  font-family: "Montserrat";
+
+
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: 1000px;
+  font-size: 40px;
+  padding: 2% 1%;
+
+}
+
+#footer{
+  text-align: center;
+  padding: 5% 10% 5%;
+}
+
+.foot-brands{
+  margin: auto 10px 20px;
+}
+
+#cat-app-download{
+  text-align: center;
+  padding: 0px;
+  background-color: #ff4d88;
+  font-family: "Montserrat";
+}

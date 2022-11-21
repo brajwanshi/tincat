@@ -1,2 +1,1 @@
-# tincat
-tincat website
+TinDog Starting Files
